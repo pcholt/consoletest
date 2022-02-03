@@ -7,7 +7,7 @@ Tests are constructed by subclassing `ConsoleTest`. This allows you to use the
 import com.pcholt.console.testutils.ConsoleTest
 import org.junit.Test
 
-class AnimalJavaTest : ConsoleTest() {
+class ConsoleApplicationTest : ConsoleTest() {
     @Test
     fun `should have a simple conversation`() {
        assertConversation(
